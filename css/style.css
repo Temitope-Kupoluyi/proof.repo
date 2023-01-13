@@ -264,6 +264,9 @@ span {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    text-align: center;
+  }
   h1 {
     font-size: 2rem;
     transform: translateX(-25%);
@@ -273,6 +276,9 @@ span {
     font-size: 0.9rem;
     transform: translateX(-25%);
   }
+  .name {
+    padding-top: 0.6rem;
+  }
 
   .reviews {
     transform: translateX(-30%);
@@ -280,11 +286,21 @@ span {
   }
 
   .rated {
-    display: block;
+    font-size: 0.8rem;
     margin-bottom: 0.2rem;
+  }
+
+  .testimonials {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
   }
 
   .colton {
     width: 15rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    padding: 0.8rem;
   }
 }
